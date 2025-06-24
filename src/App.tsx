@@ -179,7 +179,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 rounded-3xl transform rotate-6 group-hover:rotate-3 transition-transform duration-500"></div>
                 <div className="absolute inset-0 bg-gradient-to-l from-amber-400/10 to-yellow-500/10 rounded-3xl transform -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
                 <img 
-                  src="/303a5887.jpg" 
+                  src="/img.jpg" 
                   alt="Dra. Advogada Premium" 
                   className="relative w-full max-w-lg mx-auto rounded-3xl shadow-2xl group-hover:shadow-amber-400/25 transition-all duration-500"
                 />
@@ -453,7 +453,7 @@ function App() {
             <div className="bg-gradient-to-br from-slate-800 to-slate-700 p-8 rounded-3xl border border-amber-400/20 shadow-2xl">
               <h3 className="text-2xl font-bold text-white mb-8 flex items-center space-x-3">
                 <Mail className="h-8 w-8 text-amber-400" />
-                <span>Formulário Premium</span>
+                <span>Formulário</span>
               </h3>
               
               <form className="space-y-6">
@@ -566,7 +566,7 @@ function App() {
                 Sua confiança é nossa maior conquista e responsabilidade.
               </p>
               <div className="flex space-x-4">
-                {['OAB/SP', 'Certificada', 'Premium'].map((badge, index) => (
+                {['OAB/PR', 'Certificada'].map((badge, index) => (
                   <div key={index} className="bg-amber-400/10 border border-amber-400/20 rounded-full px-3 py-1">
                     <span className="text-amber-400 text-xs font-medium">{badge}</span>
                   </div>
@@ -575,7 +575,7 @@ function App() {
             </div>
 
             <div>
-              <h4 className="text-lg font-bold text-white mb-6">Especialidades Premium</h4>
+              <h4 className="text-lg font-bold text-white mb-6">Especialidades</h4>
               <ul className="space-y-3 text-white/70">
                 {['Direito Civil', 'Direito de Família', 'Direito do Consumidor', 'Direito Empresarial', 'Direito Trabalhista', 'Direito Imobiliário'].map((item, index) => (
                   <li key={index} className="hover:text-amber-400 transition-colors cursor-pointer flex items-center space-x-2">
@@ -587,7 +587,7 @@ function App() {
             </div>
 
             <div>
-              <h4 className="text-lg font-bold text-white mb-6">Contato Premium</h4>
+              <h4 className="text-lg font-bold text-white mb-6">Contato</h4>
               <div className="space-y-3 text-white/70">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4 text-amber-400" />
@@ -610,14 +610,6 @@ function App() {
 
           <div className="border-t border-amber-400/20 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <p className="text-white/60 text-center md:text-left">
-                &copy; 2024 Advocacia Premium. Todos os direitos reservados. | OAB/SP 123.456
-              </p>
-              <div className="flex space-x-6 text-white/60 text-sm">
-                <a href="#" className="hover:text-amber-400 transition-colors">Política de Privacidade</a>
-                <a href="#" className="hover:text-amber-400 transition-colors">Termos de Uso</a>
-                <a href="#" className="hover:text-amber-400 transition-colors">Código de Ética</a>
-              </div>
             </div>
           </div>
         </div>
