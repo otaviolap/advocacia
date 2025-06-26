@@ -179,9 +179,9 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 rounded-3xl transform rotate-6 group-hover:rotate-3 transition-transform duration-500"></div>
                 <div className="absolute inset-0 bg-gradient-to-l from-amber-400/10 to-yellow-500/10 rounded-3xl transform -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
                 <img 
-                  src="/img.jpg" 
-                  alt="Dra. Advogada Premium" 
-                  className="relative w-full max-w-lg mx-auto rounded-3xl shadow-2xl group-hover:shadow-amber-400/25 transition-all duration-500"
+                  src="/advocacia/img.jpg" 
+                  alt="Dra. Maria Paula Stradiotto Simões" 
+                  className="relative z-10 w-full h-auto rounded-3xl shadow-2xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent rounded-3xl"></div>
               </div>
