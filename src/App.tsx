@@ -132,7 +132,7 @@ function App() {
               <div className="space-y-6">
                 <div className="inline-flex items-center space-x-2 bg-amber-400/10 border border-amber-400/20 rounded-full px-4 py-2">
                   <Star className="h-4 w-4 text-amber-400" />
-                  <span className="text-amber-400 text-sm font-medium">OAB: 2532834732</span>
+                  <span className="text-amber-400 text-sm font-medium">OAB: 2532834732 (ficticio POR ENQUANTO!!!)</span>
                 </div>
                 
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
@@ -214,7 +214,7 @@ function App() {
             <div className="space-y-8">
               <div className="space-y-6">
                 <p className="text-lg text-white/80 leading-relaxed">
-                  Formada pela <span className="text-amber-400">Universidade Norte do Paraná</span>, atua com foco em Direito Civil e Empresarial, unindo sólida formação acadêmica, ética profissional e total dedicação aos seus clientes.
+                  Formada pela <span className="text-amber-400">Universidade Estadual Norte do Paraná</span>, atua com foco em Direito Civil e Empresarial, unindo sólida formação acadêmica, ética profissional e total dedicação aos seus clientes.
                 </p>
                 
                 <p className="text-lg text-white/80 leading-relaxed">
