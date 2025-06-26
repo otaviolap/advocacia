@@ -1,47 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advocacia - Teste</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background-color: #f3f4f6; }
-        .error { color: red; font-weight: bold; }
-    </style>
-</head>
-<body class="min-h-screen flex items-center justify-center">
-    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full mx-4">
-        <h1 class="text-3xl font-bold text-gray-800 text-center mb-4">
-            🏛️ Advocacia
-        </h1>
-        <p class="text-gray-600 text-center mb-6">
-            Site funcionando perfeitamente!
-        </p>
-        <div id="status" class="text-center text-sm text-green-600">
-            ✅ Carregado com sucesso
-        </div>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Advocacia Premium - Excelência jurídica com mais de 20 anos de experiência. Direito Civil, Família, Consumidor, Empresarial e mais. Consulta gratuita." />
+    <meta name="keywords" content="advogada premium, advocacia de luxo, direito civil, direito de família, direito do consumidor, São Paulo, consulta gratuita" />
+    <title>Advocacia Premium - Excelência Jurídica | Consulta Gratuita</title>
     
-    <script>
-        // Verificar se tudo carregou
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('✅ Site carregado com sucesso!');
-            
-            // Teste de JavaScript
-            try {
-                document.getElementById('status').innerHTML = '✅ JavaScript funcionando - ' + new Date().toLocaleTimeString();
-            } catch(e) {
-                console.error('❌ Erro:', e);
-                document.body.innerHTML = '<div class="error">Erro: ' + e.message + '</div>';
-            }
-        });
-        
-        // Capturar erros
-        window.onerror = function(msg, url, line) {
-            console.error('❌ Erro capturado:', msg, url, line);
-            document.body.innerHTML = '<div class="error">Erro JavaScript: ' + msg + '</div>';
-        };
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Advocacia Premium - Excelência Jurídica">
+    <meta property="og:description" content="Defendendo seus direitos com excelência há mais de 20 anos. Consulta gratuita disponível.">
+    <meta property="og:image" content="/303a5887.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Advocacia Premium - Excelência Jurídica">
+    <meta property="twitter:description" content="Defendendo seus direitos com excelência há mais de 20 anos. Consulta gratuita disponível.">
+    <meta property="twitter:image" content="/303a5887.jpg">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "Advocacia Premium",
+      "description": "Advocacia especializada com mais de 20 anos de experiência",
+      "url": "https://advocaciapremium.com.br",
+      "telephone": "+55-11-99999-9999",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Paulista, 1000 - Sala 2001",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "postalCode": "01310-100",
+        "addressCountry": "BR"
+      },
+      "openingHours": "Mo-Fr 08:00-20:00, Sa 08:00-14:00",
+      "priceRange": "$$$$",
+      "areaServed": "São Paulo"
+    }
     </script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
